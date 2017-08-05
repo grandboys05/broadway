@@ -1,0 +1,166 @@
+body{
+
+font-family: arial, sans-serif;;
+text-align: center;
+}
+
+#nav{
+width: 100%;
+height: 400px;
+background: url(building.png);
+background-size: cover;
+
+}
+
+#nav_wrapper{
+  height: 100px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#nav_wrapper ul li{
+list-style: none;
+display: block;
+font-weight: bold;
+font-size: 20px;
+padding: 2px;
+margin-top: 30px;
+}
+
+#nav_wrapper h1{
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: helvetica;
+  position: absolute;
+  top: 1px;
+  text-align: center;
+}
+
+#nav_wrapper a{
+color: white;
+text-decoration: none
+}
+
+#nav_wrapper ul li:hover{
+  background: pink;
+  transition: all 0.45s;
+  opacity: 0.5;
+  filter:alpha opacity(=50);
+}
+
+#title1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: helvetica;
+  position: absolute;
+  top: 10px
+  left: 0;
+  width: 100;
+}
+
+.image {
+  postion: relative;
+  width: 100%;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+#detail1 {
+  font-size: 23px
+    color: black;
+    font-weight: bold;
+    font-family: helvetica;
+}
+#detail2 {
+  font-size: 14px
+    color: black;
+    font-family: helvetica;
+}
+
+#detail3{
+  font-size: 11px
+    font-color: black;
+    font-weight: bold;
+    font-family: helvetica;
+}
+#detail4{
+  font-size: 18
+  px
+    font-color: black;
+    font-weight: bold;
+    font-family: helvetica;
+  }
+
+
+  #nav2{
+  width: 100%;
+  height: 10%;
+  background: url(building2.png);
+  background-size: cover;
+
+  }
+
+  #nav_wrapper2{
+    height: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+
+
+  #nav_wrapper2 ul li{
+  list-style: none;
+  display: inline;
+  font-size: 20px;
+  font-weight: bolder;
+  }
+
+
+
+  #nav_wrapper2 a{
+  color: white;
+  text-decoration: none
+  }
+  #nav3{
+  width: 100%;
+  height: 10%;
+  background: url(building3.png);
+  background-size: cover;
+
+  }
+
+
+
+
+  #nav_wrapper3{
+    height: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+
+
+  #nav_wrapper3 ul li{
+  font-family: Helvetica;
+
+  list-style: none;
+  font-size: 20px;
+  padding: 2px;
+  display: inline;
+  font-weight: bolder;
+  }
+
+  #nav_wrapper3 a{
+  color: white;
+  text-decoration: none
+  }
